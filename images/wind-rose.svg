@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="wind-rose.svg"
+   viewBox="0 0 744.09 1052.4"
+   version="1.1"
+   inkscape:version="0.92.4 (33fec40, 2019-01-16)"
+   inkscape:export-filename="/home/severine/Documents/Python/qtinterface/images/wind-rose.svg.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs17" />
+  <sodipodi:namedview
+     id="base"
+     bordercolor="#666666"
+     inkscape:pageshadow="2"
+     inkscape:window-y="27"
+     pagecolor="#ffffff"
+     inkscape:window-height="713"
+     inkscape:window-maximized="1"
+     inkscape:zoom="0.70710678"
+     inkscape:window-x="59"
+     showgrid="false"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="294.01307"
+     inkscape:cy="561.91025"
+     inkscape:window-width="1307"
+     inkscape:pageopacity="0.0"
+     inkscape:document-units="px"
+     inkscape:snap-text-baseline="true"
+     inkscape:pagecheckerboard="true" />
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     style="display:inline">
+    <g
+       style="fill:#000000"
+       id="text4344"
+       transform="matrix(0.14581,0,0,0.14581,932.1073,1159)" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4568"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4570"><rect
+           id="rect4572"
+           width="41.012192"
+           height="48.08326"
+           x="107.48023"
+           y="154.3744" /></flowRegion><flowPara
+         id="flowPara4574"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4576"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4578"><rect
+           id="rect4580"
+           width="48.08326"
+           height="48.08326"
+           x="106.06602"
+           y="150.13177" /></flowRegion><flowPara
+         id="flowPara4582" /></flowRoot>  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="N"
+     style="display:inline">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4585"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4587"
+         style="fill:#483737"><rect
+           id="rect4589"
+           width="52.325901"
+           height="49.497475"
+           x="451.13412"
+           y="168.51654"
+           style="fill:#483737" /></flowRegion><flowPara
+         id="flowPara4591"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4593"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4595"
+         style="fill:#483737"><rect
+           id="rect4597"
+           width="83.438599"
+           height="59.396969"
+           x="404.46509"
+           y="169.93076"
+           style="fill:#483737" /></flowRegion><flowPara
+         id="flowPara4599"></flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"
+       x="793.37384"
+       y="184.07291"
+       id="text4603"><tspan
+         sodipodi:role="line"
+         id="tspan4601"
+         x="793.37384"
+         y="219.46353" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4613"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4615"
+         style="fill:#483737"><rect
+           id="rect4617"
+           width="66.46804"
+           height="43.840622"
+           x="246.07317"
+           y="103.46272"
+           style="fill:#483737" /></flowRegion><flowPara
+         id="flowPara4619">E</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4625"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion4627"
+         style="fill:#483737"><rect
+           id="rect4629"
+           width="70.710678"
+           height="66.46804"
+           x="243.24474"
+           y="66.693169"
+           style="fill:#483737" /></flowRegion><flowPara
+         id="flowPara4631"></flowPara></flowRoot>    <g
+       id="g4699">
+      <path
+         id="path3254-2-2-7-1"
+         style="color:#000000;text-indent:0;text-transform:none;display:inline;fill:#483737;stroke-width:0.14580999"
+         inkscape:connector-curvature="0"
+         d="m 331.00558,259.92096 -39.80176,191.57976 -71.8435,-47.13308 -1.51278,1.50825 47.05143,71.72978 -191.200657,39.70989 v 3.42654 l 191.127747,39.70989 -47.35617,72.18907 1.50826,1.50826 71.8887,-47.15203 39.78864,191.56517 h 3.42653 l 39.8105,-191.60892 71.84788,47.12871 1.50826,-1.50826 -47.06893,-71.75602 191.18608,-39.71572 v -3.42654 l -191.08401,-39.70115 47.31972,-72.13074 -1.51278,-1.50826 -71.87121,47.14183 -39.78863,-191.5506 h -3.42653 z m -0.0319,17.35576 v 200.31378 37.15822 l -40.85013,-40.86325 4.22397,-20.323 36.62602,-176.28429 z m 107.4576,134.68324 -59.96437,59.96436 -3.77283,-18.15771 63.73647,-41.80665 z m -212.95551,1.57198 59.8273,59.8273 -18.11689,3.76365 -41.71041,-63.59066 z m 151.93402,63.25384 20.80126,4.32414 175.80311,36.5254 H 374.25446 336.5582 l 40.85888,-40.85013 z M 91.053523,520.77082 H 290.85697 328.54885 L 287.68997,561.6297 266.88434,557.30556 91.052065,520.7714 Z m 243.050687,2.92991 40.85888,40.85887 -4.22397,20.323 -36.63476,176.31345 V 560.83853 523.69344 Z m 63.77438,37.58252 41.72936,63.62274 -59.85938,-59.85938 18.13002,-3.76365 z m -111.26615,5.2582 3.76831,18.1621 -63.74667,41.81539 59.97748,-59.97749 z" />
+      <flowRoot
+         transform="translate(-73.539105,38.183767)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Purisa;-inkscape-font-specification:Purisa;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"
+         id="flowRoot4633"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Purisa;-inkscape-font-specification:Purisa;fill:#483737"
+           id="flowRegion4635"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Purisa;-inkscape-font-specification:Purisa;fill:#483737"
+             y="174.1734"
+             x="388.90872"
+             height="46.669048"
+             width="63.63961"
+             id="rect4637" /></flowRegion><flowPara
+           id="flowPara4639">N</flowPara></flowRoot>      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4647"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Purisa;-inkscape-font-specification:Purisa;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"
+         transform="translate(-353.55339,322.44069)"><flowRegion
+           id="flowRegion4643"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Purisa;-inkscape-font-specification:Purisa;fill:#483737"><rect
+             id="rect4641"
+             width="63.63961"
+             height="46.669048"
+             x="388.90872"
+             y="174.1734"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Purisa;-inkscape-font-specification:Purisa;fill:#483737" /></flowRegion><flowPara
+           id="flowPara4645">O</flowPara></flowRoot>      <flowRoot
+         transform="translate(-66.468033,612.35448)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Purisa;-inkscape-font-specification:Purisa;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"
+         id="flowRoot4655"
+         xml:space="preserve"><flowRegion
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Purisa;-inkscape-font-specification:Purisa;fill:#483737"
+           id="flowRegion4651"><rect
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Purisa;-inkscape-font-specification:Purisa;fill:#483737"
+             y="174.1734"
+             x="388.90872"
+             height="46.669048"
+             width="63.63961"
+             id="rect4649" /></flowRegion><flowPara
+           id="flowPara4653">S</flowPara></flowRoot>      <flowRoot
+         inkscape:transform-center-y="7.0710677"
+         inkscape:transform-center-x="-38.183765"
+         xml:space="preserve"
+         id="flowRoot4663"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Purisa;-inkscape-font-specification:Purisa;letter-spacing:0px;word-spacing:0px;fill:#483737;fill-opacity:1;stroke:none"
+         transform="translate(218.2566,321.14163)"><flowRegion
+           id="flowRegion4659"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Purisa;-inkscape-font-specification:Purisa;fill:#483737"><rect
+             id="rect4657"
+             width="63.63961"
+             height="46.669048"
+             x="388.90872"
+             y="174.1734"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Purisa;-inkscape-font-specification:Purisa;fill:#483737" /></flowRegion><flowPara
+           id="flowPara4661">E</flowPara></flowRoot>    </g>
+  </g>
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2012-12-08T03:07:14</dc:date>
+        <dc:description />
+        <dc:source>https://openclipart.org/detail/173629/simple-wind-rose-by-binleii-173629</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>binleii</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>Compass</rdf:li>
+            <rdf:li>Kompass</rdf:li>
+            <rdf:li>Wind Rose</rdf:li>
+            <rdf:li>Windrose</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
