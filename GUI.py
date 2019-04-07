@@ -194,13 +194,23 @@ class GUI(QWidget):
         self.icons.setLayout(self.icons_area)
 
     def createActionsList(self):
-        button_submit = QPushButton('Submit')
-        button_submit.clicked.connect(lambda: self.submitProposal())
-        self.actions_area.addWidget(button_submit)
 
-        button_clear = QPushButton('Clear')
+        button_box = QHBoxLayout()
+        button_submit = QPushButton(QIcon(IMAGES_FILES + 'check.png'), '')
+        button_submit.setIconSize(QSize(ICON_SIZE['w'], ICON_SIZE['h']))
+        button_submit.setFixedSize(QSize(BUTTON_SIZE['w'], BUTTON_SIZE['h']))
+        button_submit.clicked.connect(lambda: self.submitProposal())
+        button_box.addWidget(button_submit, 0)
+
+        button_clear = QPushButton(QIcon(IMAGES_FILES + 'x.png'), '')
+        button_clear.setIconSize(QSize(ICON_SIZE['w'], ICON_SIZE['h']))
+        button_clear.setFixedSize(QSize(BUTTON_SIZE['w'], BUTTON_SIZE['h']))
         button_clear.clicked.connect(lambda: self.clearGame())
-        self.actions_area.addWidget(button_clear)
+        button_box.addWidget(button_clear, 1, QtCore.Qt.AlignLeft)
+
+
+        self.actions_area.addLayout(button_box)
+
         self.actions_area.addWidget(self.proposal_viewer)
         self.actions.setLayout(self.actions_area)
 
