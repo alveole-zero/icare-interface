@@ -45,6 +45,8 @@ class StepListWidget(QListWidget):
         self.setStyleSheet(open('ViewList_fusion.css').read())
         self.setDragDropMode(QAbstractItemView.InternalMove)
         self.proposal = []
+        shortcut = QShortcut(QKeySequence(QtCore.Qt.CTRL | QtCore.Qt.Key_Delete), self)
+        shortcut.activated.connect(lambda: self.removeSelectedItem())
 
     def addStepWidgetItem(self, step_widget):
         item = StepWidgetListItem(step_widget)
@@ -52,6 +54,11 @@ class StepListWidget(QListWidget):
         row = step_widget
         item.setSizeHint(row.minimumSizeHint())
         self.setItemWidget(item, row)
+        self.setCurrentItem(item)
+
+    def removeSelectedItem(self):
+        item = self.takeItem(self.currentRow())
+        item = None
 
     def initGame(self):
         self.reinitProposal()
