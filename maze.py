@@ -38,6 +38,9 @@ SOUTH = 1
 WEST = 2
 EAST = 3
 
+MOVE_OK = 1
+MOVE_KO = 0
+
 
 class Maze:
     """Creates a maze and formattes it as text or HTML"""
@@ -151,17 +154,30 @@ class Maze:
         pas = 10
         dwg = svgwrite.Drawing(filename + '.svg', profile='tiny')
 
+        # for i in range(self.n_rows):
+        #     for j in range(self.n_cols):
+        #         if i == 0:
+        #             dwg.add(dwg.line(start=(0, j * pas), end=(0, (j + 1) * pas), stroke=svgwrite.rgb(10, 10, 16, '%')))
+        #         if i == self.n_rows - 1 or self.maze[i][j][BOTTOMWALL]:
+        #             dwg.add(dwg.line(start=((i + 1) * pas, j * pas), end=((i + 1) * pas, (j + 1) * pas),
+        #                              stroke=svgwrite.rgb(10, 10, 16, '%')))
+        #         if j == 0:
+        #             dwg.add(dwg.line(start=(i * pas, 0), end=((i + 1) * pas, 0), stroke=svgwrite.rgb(10, 10, 16, '%')))
+        #         if j == self.n_cols - 1 or self.maze[i][j][RIGHTWALL]:
+        #             dwg.add(dwg.line(start=(i * pas, (j + 1) * pas), end=((i + 1) * pas, (j + 1) * pas),
+        #                              stroke=svgwrite.rgb(10, 10, 16, '%')))
+
         for i in range(self.n_rows):
             for j in range(self.n_cols):
                 if i == 0:
-                    dwg.add(dwg.line((0, j * pas), (0, (j + 1) * pas), stroke=svgwrite.rgb(10, 10, 16, '%')))
+                    dwg.add(dwg.line(start=(j * pas, 0), end=((j + 1) * pas, 0), stroke=svgwrite.rgb(10, 10, 16, '%')))
                 if i == self.n_rows - 1 or self.maze[i][j][BOTTOMWALL]:
-                    dwg.add(dwg.line(((i + 1) * pas, j * pas), ((i + 1) * pas, (j + 1) * pas),
+                    dwg.add(dwg.line(start=(j * pas, (i + 1) * pas), end=((j + 1) * pas, (i + 1) * pas),
                                      stroke=svgwrite.rgb(10, 10, 16, '%')))
                 if j == 0:
-                    dwg.add(dwg.line((i * pas, 0), ((i + 1) * pas, 0), stroke=svgwrite.rgb(10, 10, 16, '%')))
+                    dwg.add(dwg.line(start=(0, i * pas), end=(0, (i + 1) * pas), stroke=svgwrite.rgb(10, 10, 16, '%')))
                 if j == self.n_cols - 1 or self.maze[i][j][RIGHTWALL]:
-                    dwg.add(dwg.line((i * pas, (j + 1) * pas), ((i + 1) * pas, (j + 1) * pas),
+                    dwg.add(dwg.line(start=((j + 1) * pas, i * pas), end=((j + 1) * pas, (i + 1) * pas),
                                      stroke=svgwrite.rgb(10, 10, 16, '%')))
 
         dwg.save()
@@ -209,13 +225,35 @@ class Maze:
     # **************************************
 
     def isMovePossible(self, R, C, dir):
-        isPossible = False
+        is_possible = False
+
         if dir == NORTH:
-            isPossible = R > 0 and maze[R][C][BOTTOMWALL] == False
+            is_possible = R > 0 and self.maze[R - 1][C][BOTTOMWALL] is False
         elif dir == SOUTH:
-            isPossible = R < self.n_rows - 1 and maze[R - 1][C][BOTTOMWALL] == False
+            is_possible = R < self.n_rows - 1 and self.maze[R][C][BOTTOMWALL] is False
         elif dir == EAST:
-            isPossible = C < self.n_cols - 1 and maze[R][C - 1][RIGHTWALL] == False
+            is_possible = C < self.n_cols - 1 and self.maze[R][C][RIGHTWALL] is False
+        elif dir == WEST:
+            is_possible = C > 0 and self.maze[R][C - 1][RIGHTWALL] is False
+
+        return is_possible
+
+    def moveFromPositionToDirection(self, R, C, dir):
+        is_possible = self.isMovePossible(R, C, dir)
+        if is_possible is True:
+            status = MOVE_OK
+            if dir == NORTH:
+                R = R - 1
+            elif dir == SOUTH:
+                R = R + 1
+            elif dir == EAST:
+                C = C + 1
+            elif dir == WEST:
+                C = C - 1
+        else:
+            status = MOVE_KO
+        return (R, C, status)
+
 
 
 # *****************************************
